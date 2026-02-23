@@ -13,13 +13,13 @@ import Foundation
 
 //MARK: data source
 //figures and their elements
-let figures = ["Square": ["a", "Perimeter", "Area"],
-               "Rectangle": ["a", "b", "Perimeter", "Area"],
-               "Triangle":["a", "b", "c", "∠A", "∠B", "∠C", "height", "Perimeter", "Area"],
-               "Circle":["radius","diameter", "Circumference", "Area"],
-               "Cube":["a","Perimeter", "Bottom area","Surface area", "Volume"],
-               "Sphere":["radius", "diameter", "surface area", "Volume"],
-               "Cylinder":["r", "h", "Button Area", "Side Area", "Total Area"]
+let figures = ["Square": ["Side Length", "Perimeter", "Area"],
+               "Rectangle": ["Length", "Width", "Perimeter", "Area"],
+               "Triangle":["Side A", "Side B", "Side C", "∠A", "∠B", "∠C", "Height", "Perimeter", "Area"],
+               "Circle":["Radius", "Diameter", "Circumference", "Area"],
+               "Cube":["Edge Length", "Total Edge Length", "Base Area", "Surface Area", "Volume"],
+               "Sphere":["Radius", "Diameter", "Surface Area", "Volume"],
+               "Cylinder":["Radius", "Height", "Base Area", "Lateral Area", "Total Surface Area"]
                 ]
 
 //this matches with figures's value that need π as appendix
