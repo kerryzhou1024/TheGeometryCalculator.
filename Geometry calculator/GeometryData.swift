@@ -15,12 +15,12 @@ struct GeometryFigure: Identifiable, Hashable {
 }
 
 let geometryFigures: [GeometryFigure] = [
-    GeometryFigure(name: "Square", fields: ["a", "Perimeter", "Area"]),
-    GeometryFigure(name: "Rectangle", fields: ["a", "b", "Perimeter", "Area"]),
-    GeometryFigure(name: "Triangle", fields: ["a", "b", "c", "∠A", "∠B", "∠C", "height", "Perimeter", "Area"]),
-    GeometryFigure(name: "Circle", fields: ["radius", "diameter", "Circumference", "Area"]),
-    GeometryFigure(name: "Parallelogram", fields: ["a", "b", "height", "Perimeter", "Area"]),
-    GeometryFigure(name: "Cube", fields: ["a", "Perimeter", "Bottom area", "Surface area", "Volume"]),
-    GeometryFigure(name: "Sphere", fields: ["radius", "diameter", "surface area", "Volume"]),
-    GeometryFigure(name: "Cylinder", fields: ["r", "h", "Bottom Area", "Side Area", "Total Area"])
+    GeometryFigure(name: "Square", fields: ["Side Length", "Perimeter", "Area"]),
+    GeometryFigure(name: "Rectangle", fields: ["Length", "Width", "Perimeter", "Area"]),
+    GeometryFigure(name: "Triangle", fields: ["Side A", "Side B", "Side C", "∠A", "∠B", "∠C", "Height", "Perimeter", "Area"]),
+    GeometryFigure(name: "Circle", fields: ["Radius", "Diameter", "Circumference", "Area"]),
+    GeometryFigure(name: "Parallelogram", fields: ["Base", "Side", "Height", "Perimeter", "Area"]),
+    GeometryFigure(name: "Cube", fields: ["Edge Length", "Total Edge Length", "Base Area", "Surface Area", "Volume"]),
+    GeometryFigure(name: "Sphere", fields: ["Radius", "Diameter", "Surface Area", "Volume"]),
+    GeometryFigure(name: "Cylinder", fields: ["Radius", "Height", "Base Area", "Lateral Area", "Total Surface Area"])
 ]
